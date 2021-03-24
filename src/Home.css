@@ -1,0 +1,75 @@
+.home__section {
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    margin: 0 auto;
+    
+  }
+
+  
+  .home {
+    background: url("https://raw.githubusercontent.com/PAPA-Github-Repo/portfolio-resume-starter-pack/main/public/images/header-background.jpg?token=AGIYC63OT3GDNNIMWXT7RTLALFWRC") center center;
+    
+    position: relative;
+  }
+
+@media (max-width: 800px) {
+  .home__section {
+    max-width: 975px;
+    flex-wrap: wrap;
+  }
+}
+
+.card {
+  margin: 40px 80px;
+  padding: 24px 40px;
+  border-radius: 16px;
+  
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+
+.h3 {
+  margin-top: 24px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  
+}
+
+.h3.justified {
+  text-align: justify;
+}
+
+
+.container-2 {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.question {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color:black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.answer {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
