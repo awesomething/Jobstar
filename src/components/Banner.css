@@ -1,0 +1,63 @@
+@media (max-width: 800px) {
+    .banner {
+      max-width: 375px;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .banner {
+    background: url("https://i.pinimg.com/564x/c0/03/15/c00315da0588f81c3d65e23a692346c7.jpg") center center;
+    height: 20vh;
+    position: relative;
+  }
+  
+  .banner__info {
+      background-color: black;
+      color: white;
+      padding-top: 25vh;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 40px;
+      width: 374px;
+      height: 420px;
+      border-radius: 10%;
+   
+    overflow: hidden;
+  }
+  
+  /*.banner__search {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #0011ff !important;
+  }*/
+  
+  .banner__info > button {
+      background-color: black;
+      align-items:unset;
+      text-align: center;
+      color: #eeff00;
+      justify-content: center;
+      flex-direction: column;
+      text-transform: inherit;
+      margin-top: 20px;
+      font-weight: 600;
+      border-radius: 40%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .banner__info > button:hover {
+      background-color: rgb(8, 8, 8);
+      color: #ff7779;
+    }
+    
+  
+  .banner__info > h5 {
+      margin-top: 10px;
+  }
