@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Banner.css'
 import { Button } from "@material-ui/core";
 import Search from './Search';
-//import JobListMain from './JobListMain/JobListMain'
+
 import { useHistory } from "react-router-dom";
 
 function Banner() {

@@ -7,11 +7,7 @@
   }
 
   
-  .home {
-    background: url("https://raw.githubusercontent.com/PAPA-Github-Repo/portfolio-resume-starter-pack/main/public/images/header-background.jpg?token=AGIYC63OT3GDNNIMWXT7RTLALFWRC") center center;
-    
-    position: relative;
-  }
+  
 
 @media (max-width: 800px) {
   .home__section {

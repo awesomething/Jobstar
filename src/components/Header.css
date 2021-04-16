@@ -5,15 +5,13 @@
     align-items: center;
     position: sticky;
     top: 0;
+    margin-right: 10px;
     background-color: white;
     z-index: 100;
     width: 100%;
   }
 
-  .header {
-    background: url("https://raw.githubusercontent.com/PAPA-Github-Repo/portfolio-resume-starter-pack/main/public/images/header-background.jpg") center center;
-
-  }
+  
   
   .header__icon {
     object-fit: contain;
@@ -53,4 +51,35 @@
        
       max-width: 375px;
     }
+    
+    .fa-facebook {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .fa-linkedin {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa {
+    padding: 4px;
+    font-size: 8px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
   }
