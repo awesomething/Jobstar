@@ -1,5 +1,95 @@
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  margin-right: 10px;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+}
+
+.header__icon {
+  object-fit: contain;
+  height: 55px;
+  /* margin-left: 20px; */
+}
+
+.mt {
+  margin-top: 0.75rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.header__center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+
+.header__center > input {
+  border: none;
+  padding: 10px;
+  outline-width: 0;
+  /* width: 250px; */
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  margin-right: 80px;
+}
+
+@media (max-width: 800px) {
+  .header {
+    /* max-width: 375px; */
+  }
+
+  .fa-facebook {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fa-linkedin {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa {
+  padding: 4px;
+  font-size: 8px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+/*.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +124,7 @@
     border: none;
     padding: 10px;
     outline-width: 0;
-    /* width: 250px; */
+    
   }
   
   .header__right {
@@ -82,4 +172,4 @@
   
   .fa:hover {
       opacity: 0.7;
-  }
+  } */
