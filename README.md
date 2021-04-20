@@ -7,7 +7,7 @@
 <h3>Screenshots</h3>
 <il>
 
- ![about](https://github.com/awesomething/Jobstar/blob/main/images/about.PNG)
+ <ul>![about](https://github.com/awesomething/Jobstar/blob/main/images/about.PNG) About Page </ul>
  
 <ul><a href="https://ibb.co/72cXgk9">Job Results Screen</a></ul>
 <ul><a href="https://ibb.co/64KK5Xm">Video Results Screen</a></ul>
