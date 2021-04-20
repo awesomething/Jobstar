@@ -42,5 +42,4 @@ This will automatically open a new browser window with the project.
 ##### ReactJs
 ##### CSS3
 ##### TailwindCSS
-##### NodeJs
-##### PostgreSql
+
