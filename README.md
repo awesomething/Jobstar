@@ -11,7 +11,7 @@
  ![about](https://github.com/awesomething/Jobstar/blob/main/images/about.PNG) 
  
 ### AI FAQ Page
-![FAQ](https://github.com/awesomething/Jobstar/blob/main/images/FAQ.PNG) 
+![faq](https://github.com/awesomething/Jobstar/blob/main/images/FAQ.PNG) 
 
 ### Post Jobs Page
 ![post](https://github.com/awesomething/Jobstar/blob/main/images/Post.PNG) 
