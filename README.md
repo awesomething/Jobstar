@@ -13,11 +13,11 @@
 ### AI FAQ Page
 ![FAQ](https://github.com/awesomething/Jobstar/blob/main/images/FAQ.PNG) 
 
-### Post Jobs Page
+### Post Page
 ![Post](https://github.com/awesomething/Jobstar/blob/main/images/Post.PNG) 
 
 
-### Jobs List Page
+### List Page
 ![List](https://github.com/awesomething/Jobstar/blob/main/images/.List.PNG) 
 
 
