@@ -19,8 +19,7 @@
 
 ### Jobs List Page
 ![List](https://github.com/awesomething/Jobstar/blob/main/images/.List.PNG) 
- <ul><a href="https://ibb.co/mv71kqJ">Job Apply Screen</a></ul>
-</il>
+
 
 <h3> How Does Jobstar Work?</h3>
 <p> STEP 1 - Use non-traditional methods - like a dress rehearsal - where the final applicants work remotely to create a website clone..</p>
