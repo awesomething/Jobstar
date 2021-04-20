@@ -18,7 +18,7 @@
 
 
 ### Job List Page
-![List](https://github.com/awesomething/Jobstar/blob/main/images/.List.png) 
+![List](https://github.com/awesomething/Jobstar/blob/main/images/List.png) 
 
 
 <h3> How Does Jobstar Work?</h3>
