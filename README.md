@@ -13,12 +13,12 @@
 ### AI FAQ Page
 ![FAQ](https://github.com/awesomething/Jobstar/blob/main/images/FAQ.PNG) 
 
-### Post Page
-![Post](https://github.com/awesomething/Jobstar/blob/main/images/Post.PNG) 
+### Post Jobs Page
+![post](https://github.com/awesomething/Jobstar/blob/main/images/Post.PNG) 
 
 
-### List Page
-![List](https://github.com/awesomething/Jobstar/blob/main/images/.List.PNG) 
+### Job List Page
+![list](https://github.com/awesomething/Jobstar/blob/main/images/.List.PNG) 
 
 
 <h3> How Does Jobstar Work?</h3>
