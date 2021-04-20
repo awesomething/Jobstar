@@ -6,8 +6,7 @@
 
 <h3>Screenshots</h3>
 <il>
-<ul>![About Page](/images/About.PNG)
-Format: ![Alt Text](url)</ul>
+<ul>![Image of About Page](https://github.com/images/About.PNG)</ul>
 <ul><a href="https://ibb.co/72cXgk9">Job Results Screen</a></ul>
 <ul><a href="https://ibb.co/64KK5Xm">Video Results Screen</a></ul>
 <ul><a href="https://ibb.co/JQvqM6b">Play Multiple Videos Screen</a></ul>
