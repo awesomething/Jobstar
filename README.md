@@ -14,11 +14,11 @@
 ![faq](https://github.com/awesomething/Jobstar/blob/main/images/FAQ.PNG) 
 
 ### Post Jobs Page
-![post](https://github.com/awesomething/Jobstar/blob/main/images/Post.PNG) 
+![Post](https://github.com/awesomething/Jobstar/blob/main/images/Post.PNG) 
 
 
 ### Job List Page
-![list](https://github.com/awesomething/Jobstar/blob/main/images/.List.PNG) 
+![List](https://github.com/awesomething/Jobstar/blob/main/images/.List.PNG) 
 
 
 <h3> How Does Jobstar Work?</h3>
