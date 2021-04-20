@@ -6,9 +6,9 @@
 
 <h3>Screenshots</h3>
 <il>
-<ul>
- [alt text](https://github.com/awesomething/Jobstar/tree/main/images/About.PNG?raw=true)
- </ul>
+
+ ![alt text](https://github.com/awesomething/Jobstar/tree/main/images/About.PNG?raw=true)
+ 
 <ul><a href="https://ibb.co/72cXgk9">Job Results Screen</a></ul>
 <ul><a href="https://ibb.co/64KK5Xm">Video Results Screen</a></ul>
 <ul><a href="https://ibb.co/JQvqM6b">Play Multiple Videos Screen</a></ul>
