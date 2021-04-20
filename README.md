@@ -7,12 +7,18 @@
 <h3>Screenshots</h3>
 <il>
 
- ## About Page 
+ ### About Page
  ![about](https://github.com/awesomething/Jobstar/blob/main/images/about.PNG) 
  
-<ul><a href="https://ibb.co/72cXgk9">Job Results Screen</a></ul>
-<ul><a href="https://ibb.co/64KK5Xm">Video Results Screen</a></ul>
-<ul><a href="https://ibb.co/JQvqM6b">Play Multiple Videos Screen</a></ul>
+### AI FAQ Page
+![FAQ](https://github.com/awesomething/Jobstar/blob/main/images/FAQ.PNG) 
+
+### Post Jobs Page
+![Post](https://github.com/awesomething/Jobstar/blob/main/images/Post.PNG) 
+
+
+### Jobs List Page
+![List](https://github.com/awesomething/Jobstar/blob/main/images/.List.PNG) 
  <ul><a href="https://ibb.co/mv71kqJ">Job Apply Screen</a></ul>
 </il>
 
