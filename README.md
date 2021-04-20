@@ -26,5 +26,21 @@
 <p> STEP 2 - Fast-track your hiring process and onboard people based on proof of work. Devs would ship small features and fix bugs frequently, while communicating with you on video call.</p>
 <p>STEP 3 - You get to decide at an interview for fulltime offer or longterm contract. They might not be ready for the fulltime job just yet, until they have engaged in a contract job with you.</p>
 
-<h3>Technology Stack Used</h3> 
-<p>React, NodeJs & PostgreSql</p>
+
+
+## Installing
+##### Clone the repository and download dependencies.
+
+##### $ git clone https://github.com/awesomething/Jobstar.git
+##### $ cd Jobstar
+##### $ npm install
+##### $ npm start
+This will automatically open a new browser window with the project.
+
+
+## Built With
+##### ReactJs
+##### CSS3
+##### TailwindCSS
+##### NodeJs
+##### PostgreSql
