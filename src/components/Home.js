@@ -2,16 +2,16 @@ import { useEffect } from 'react';
 //import { Link } from 'react-router-dom';
 import './Home.css';
 import Banner from './Banner';
-import alanBtn from '@alan-ai/alan-sdk-web';
+//import alanBtn from '@alan-ai/alan-sdk-web';
 import Card from './Card'
 
 
-const alanKey = 'c029afa04c02572367ff910e88b048342e956eca572e1d8b807a3e2338fdd0dc/stage';
+//const alanKey = 'c029afa04c02572367ff910e88b048342e956eca572e1d8b807a3e2338fdd0dc/stage';
 
 
 function Home() {
 
-  useEffect(() => {
+  /*useEffect(() => {
 
     alanBtn({
       key: alanKey,
@@ -23,7 +23,7 @@ function Home() {
       }
     })
   }, [])
-
+*/
 
 
 
