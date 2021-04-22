@@ -3,6 +3,8 @@ import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import Footer from '../components/Footer'
 
+
+
 describe(`Footer component`, () => {
   const props = {
     id: 'a',

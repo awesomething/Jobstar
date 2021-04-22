@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchPage component renders a .SearchPage by default 1`] = `
+<div
+  className="Search  dark:bg-gray-800 "
+>
+  <div
+    className="information px-7 py-4 lg:px-96"
+  >
+    <input
+      className="shadow mt-1"
+      onChange={[Function]}
+      placeholder="Company"
+      type="text"
+    />
+    <input
+      className="shadow mt-1"
+      onChange={[Function]}
+      placeholder="Experience"
+      type="number"
+    />
+    <input
+      className="shadow mt-1"
+      onChange={[Function]}
+      placeholder="Country"
+      type="text"
+    />
+    <input
+      className="shadow mt-1"
+      onChange={[Function]}
+      placeholder="Position"
+      type="text"
+    />
+    <input
+      className="shadow mt-1"
+      onChange={[Function]}
+      placeholder="Wage (monthly):"
+      type="number"
+    />
+    <button
+      className="btn btn-block btn-info mt-3"
+      onClick={[Function]}
+    >
+      Add Job
+    </button>
+    <button
+      className="btn btn-block btn-warning mt-3"
+      onClick={[Function]}
+    >
+      Show Jobs
+    </button>
+  </div>
+  <div
+    className=" employees xs:px-8 px-10 	  mb-6 lg:px-100"
+  />
+</div>
+`;
+
+exports[`SearchPage component renders the SearchPage from props 1`] = `
+<div
+  className="Search  dark:bg-gray-800 "
+>
+  <div
+    className="information px-7 py-4 lg:px-96"
+  >
+    <input
+      className="shadow mt-1"
+      onChange={[Function]}
+      placeholder="Company"
+      type="text"
+    />
+    <input
+      className="shadow mt-1"
+      onChange={[Function]}
+      placeholder="Experience"
+      type="number"
+    />
+    <input
+      className="shadow mt-1"
+      onChange={[Function]}
+      placeholder="Country"
+      type="text"
+    />
+    <input
+      className="shadow mt-1"
+      onChange={[Function]}
+      placeholder="Position"
+      type="text"
+    />
+    <input
+      className="shadow mt-1"
+      onChange={[Function]}
+      placeholder="Wage (monthly):"
+      type="number"
+    />
+    <button
+      className="btn btn-block btn-info mt-3"
+      onClick={[Function]}
+    >
+      Add Job
+    </button>
+    <button
+      className="btn btn-block btn-warning mt-3"
+      onClick={[Function]}
+    >
+      Show Jobs
+    </button>
+  </div>
+  <div
+    className=" employees xs:px-8 px-10 	  mb-6 lg:px-100"
+  />
+</div>
+`;

@@ -11,12 +11,12 @@ describe(`SearchPage component`, () => {
     'data-other': 'test-other-prop'
   }
 
-  it('renders a button.Button by default', () => {
+  it('renders a .SearchPage by default', () => {
     const wrapper = shallow(<SearchPage />)
     expect(toJson(wrapper)).toMatchSnapshot()
   })
 
-  it('renders the button from props', () => {
+  it('renders the SearchPage from props', () => {
     const wrapper = shallow(<SearchPage {...props} />)
     expect(toJson(wrapper)).toMatchSnapshot()
   })

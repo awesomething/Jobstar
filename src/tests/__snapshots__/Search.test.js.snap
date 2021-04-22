@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component renders a .Search by default 1`] = `
+<div>
+  <h3>
+    search page
+  </h3>
+</div>
+`;
+
+exports[`Search component renders the Search given props 1`] = `
+<div>
+  <h3>
+    search page
+  </h3>
+</div>
+`;

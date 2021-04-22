@@ -3,6 +3,8 @@ import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import Search from '../components/Search'
 
+
+
 describe(`Search component`, () => {
   const props = {
     id: 'a',
