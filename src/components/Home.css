@@ -1,24 +1,21 @@
 .home__section {
-    display: flex;
-    padding: 30px;
+    /* display: flex; */
+    /* padding: 30px; */
     flex-direction: row;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     
   }
 
-  
-  
-
 @media (max-width: 800px) {
   .home__section {
-    max-width: 975px;
+    /* max-width: 100px; */
     flex-wrap: wrap;
   }
 }
 
 .card {
-  margin: 40px 80px;
-  padding: 24px 40px;
+  /* margin: 40px 80px; */
+  /* padding: 24px 40px; */
   border-radius: 16px;
   
 }
@@ -69,3 +66,4 @@
   line-height: 24px;
   font-weight: 400;
 }
+
