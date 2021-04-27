@@ -14,13 +14,14 @@
   .banner__info {
       background-color: black;
       color: white;
-      padding-top: 25vh;
+      padding-top: 5vh;
       padding-left: 50px;
       padding-right: 50px;
       padding-bottom: 50px;
-      width: 354px;
-      height: 440px;
-      border-radius: 10%;
+      margin-left: 6%;
+      width: fit-content;
+      height: fit-content;
+      /* border-radius: 40%; */
    
     overflow: hidden;
   }
@@ -45,9 +46,9 @@
       justify-content: center;
       flex-direction: column;
       text-transform: inherit;
-      margin-top: 20px;
+      /* margin-top: 20px; */
       font-weight: 600;
-      border-radius: 40%;
+      border-radius: 10%;
     position: relative;
     overflow: hidden;
   }
