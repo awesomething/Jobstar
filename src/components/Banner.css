@@ -18,9 +18,10 @@
       padding-left: 50px;
       padding-right: 50px;
       padding-bottom: 50px;
+      margin-left: 6%;
       width: fit-content;
       height: fit-content;
-      border-radius: 40%;
+      /* border-radius: 40%; */
    
     overflow: hidden;
   }
