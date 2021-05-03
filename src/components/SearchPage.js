@@ -13,7 +13,8 @@ function SearchPage() {
 
   const [employeeList, setEmployeeList] = useState([]);
 
-  const addEmployee = () => {
+  const addEmployee = (event) => {
+    event.preventDefault();
     Axios.post("https://fast-cliffs-44772.herokuapp.com/create", {
       company: company,
       experience: experience,
