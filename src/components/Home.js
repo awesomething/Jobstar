@@ -5,6 +5,7 @@ import Banner from './Banner';
 //import alanBtn from '@alan-ai/alan-sdk-web';
 
 import Cards from 'react-smart-card';
+import image from "./ezgif.com-gif-maker.gif";
 
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -35,6 +36,8 @@ function Home() {
       <Banner />
 
       <div classname="flex container">
+
+        <div classname="cards">
         
         <Carousel autoPlay={true} swipeable={true} infiniteLoop={true} showIndicators={false}  >
         <div classname = "card">
@@ -42,12 +45,13 @@ function Home() {
               <Cards imgSrc="https://media.giphy.com/media/cYaAvC3JnTpiJv5ZxA/giphy.gif" title="Post Jobs and your offer" des="You would be able to post your jobs and website link you want developers to clone"/>
          </div>  
           <div classname="card">
-            <Cards imgSrc="https://media.giphy.com/media/CTkWFZ1IDvsfS/giphy.gif" title="Track Contributions Daily" des="Easily track how candidates contribute" />
+            <Cards imgSrc={image} title="Track Contributions Daily" des="Easily track how candidates contribute" />
            </div>
            <div classname = "card">
             <Cards imgSrc="https://media.giphy.com/media/4pBcyhQxYQGvzYx7oU/giphy.gif" title="Offer The Contract Job" des="In one to two weeks, you decide to offer the contract job to the top candidate" />
          </div>
         </Carousel>
+      </div>
       </div>
 
       <div class="section-3">
