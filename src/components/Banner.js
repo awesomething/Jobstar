@@ -6,7 +6,8 @@ import Search from './Search';
 import { useHistory } from "react-router-dom";
 
 function Banner() {
-    const history = useHistory();
+    // eslint-disable-next-line
+     const history = useHistory();
     const [showSearch] = useState(false);
 
     return (
@@ -22,7 +23,7 @@ function Banner() {
               <h5>Post a contract job and hire top candidates.</h5>
               
             
-                <Button onClick={() => history.push('/search')} variant='outlined'>Post Jobs</Button>
+                <Button onClick={() => window.location.href='https://calendly.com/pairsession'} variant='outlined'>Post Jobs</Button>
             </div>
         </div>
     )
