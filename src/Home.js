@@ -6,7 +6,7 @@ function Home() {
   return (
       <div className='home'>
   
-  <div className='home__section'>
+  <div className='home__section' >
             <Card
                 src="https://media.giphy.com/media/cYaAvC3JnTpiJv5ZxA/giphy.gif"
                 title="Post Jobs and Website To Clone"

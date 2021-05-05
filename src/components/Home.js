@@ -3,7 +3,9 @@ import React from 'react';
 import './Home.css';
 import Banner from './Banner';
 //import alanBtn from '@alan-ai/alan-sdk-web';
-import Card from './Card'
+
+import Cards from 'react-smart-card';
+
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -26,38 +28,27 @@ function Home() {
     })
   }, [])
 */
-
-
-
   return (
     <div className="home-wrapper">
 
 
       <Banner />
 
-      <div className='home__section'>
-      
-        <Carousel autoPlay={true} swipeable={true} infiniteLoop={true} showIndicators={false} >
-        <Card
-          src="https://media.giphy.com/media/cYaAvC3JnTpiJv5ZxA/giphy.gif"
-          title="Post Jobs and your offer"
-          description="You would be able to post your jobs and website link you want developers to clone"
-        />
-        <Card
-          src="https://media.giphy.com/media/CTkWFZ1IDvsfS/giphy.gif"
-          title="Track Contributions Daily"
-          description="Easily track how candidates contribute"
-        />
-        <Card
-          src="https://media.giphy.com/media/4pBcyhQxYQGvzYx7oU/giphy.gif"
-          // src="https://media.giphy.com/media/ObWYXyjM30T6OUICdM/giphy.gif"
-          title="Offer The Contract Job"
-          description="In one to two weeks, you decide to offer the contract job to the top candidate"
-        />
+      <div classname="flex container">
+        
+        <Carousel autoPlay={true} swipeable={true} infiniteLoop={true} showIndicators={false}  >
+        <div classname = "card">
+            
+              <Cards imgSrc="https://media.giphy.com/media/cYaAvC3JnTpiJv5ZxA/giphy.gif" title="Post Jobs and your offer" des="You would be able to post your jobs and website link you want developers to clone"/>
+         </div>  
+          <div classname="card">
+            <Cards imgSrc="https://media.giphy.com/media/CTkWFZ1IDvsfS/giphy.gif" title="Track Contributions Daily" des="Easily track how candidates contribute" />
+           </div>
+           <div classname = "card">
+            <Cards imgSrc="https://media.giphy.com/media/4pBcyhQxYQGvzYx7oU/giphy.gif" title="Offer The Contract Job" des="In one to two weeks, you decide to offer the contract job to the top candidate" />
+         </div>
         </Carousel>
       </div>
- 
-      <hr />
 
       <div class="section-3">
         <div class="container-3 w-container">

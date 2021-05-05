@@ -1,29 +1,29 @@
 @media (max-width: 800px) {
     .banner {
-      max-width: 375px;
+      max-width: 100;
       flex-wrap: wrap;
     }
   }
   
   .banner {
     background: url("https://i.pinimg.com/564x/c0/03/15/c00315da0588f81c3d65e23a692346c7.jpg") center center;
-    height: 20vh;
+    height: 30vh;
     position: relative;
   }
   
   .banner__info {
       background-color: black;
       color: white;
-      padding-top: 5vh;
+      /* padding-top: 5vh;
       padding-left: 50px;
       padding-right: 50px;
-      padding-bottom: 50px;
-      margin-left: 6%;
+      padding-bottom: 50px; */
+      /* margin-left: 6%; */
       width: fit-content;
       height: fit-content;
       /* border-radius: 40%; */
    
-    overflow: hidden;
+    overflow: flex;
   }
   
   /*.banner__search {

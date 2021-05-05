@@ -9,9 +9,8 @@
     /* justify-content: center; */
     /* flex-wrap: wrap; */
     /* flex-grow: 1; */
-       padding: 5%;
-       /* border-width: thin; */
-       
+    padding: 5%;
+       /* border-width: thin; */      
   }
   
   .card:hover {
@@ -19,16 +18,16 @@
   }
   
   .card > img {
-    /* object-fit: fill; 
+    /* object-fit: fill;  */
     min-width: 150px;
     min-height: 200px;
-    width: 100%;
-    height:100%; */
+    width: 50%;
+    height:50%; 
     justify-content: center;
+    
     /* flex-wrap: wrap; */
     /* flex-grow: 1; */
   }
-  
   .card__info {
       margin-top: -800px;
       /* border-radius: 10px; */
@@ -52,15 +51,12 @@
     }
   
       
-  /* @media (max-width: 800px) {
+  @media (max-width: 800px) {
     .card, .card > img {
       max-width: 375px;
     }
-  } */
+  } 
 
-  .image{
-    margin-top: 10%;
-    height: fit-content;
-    width: fit-content;
-    margin-bottom: 20%;
-  }
+
+
+  
