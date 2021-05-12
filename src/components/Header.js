@@ -3,7 +3,7 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-
+import LinkedInPage from './LinkedInLogin'
 function Header() {
   return (
     <div className="header lg:px-24">
@@ -53,6 +53,7 @@ function Header() {
       >
         LinkedIn
       </a> */}
+      <LinkedInPage></LinkedInPage>
     </div>
   );
 }
