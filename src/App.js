@@ -4,8 +4,7 @@ import SearchPage from './components/SearchPage'
 import Header from './components/Header'
 import Home from './components/Home'
 import Footer from './components/Footer'
-
-
+import JobPostCard from './components/jobPostCard'
 class App extends Component {
 
   render(){
@@ -13,11 +12,13 @@ class App extends Component {
       <div>
     <Router>
     <Header />
-    
     <Switch>
     <Route path="/search">
           <SearchPage />
       </Route>
+            <Route path="/jobPost">
+              <JobPostCard/>
+            </Route>
       <Route path="/">
         <Home />
       </Route>
