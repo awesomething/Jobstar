@@ -121,8 +121,8 @@
     border-radius: 5px;
     padding: 1px;
     margin:1px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(88, 127, 206);
+    color: rgb(5, 5, 5);
+    background-color: rgb(185, 213, 250);
     /* flex-wrap: wrap; */
     overflow: hidden;
     display: inline-block;
@@ -134,7 +134,40 @@
       display: flex;
         justify-content: space-between;
     }
-  
+  .submitButton{
+  border: none;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  background-color: green;
+  padding: 2%;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  }
+  .submitButton:hover {opacity: 1}
+
+  input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+Popup{
+  width: 150%;
+}
       
   @media (max-width: 450px) {
     .card, .card > img {

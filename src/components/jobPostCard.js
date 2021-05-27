@@ -26,11 +26,12 @@ return(
             //src="http://uniqueoffice.systems/wp-content/uploads/2019/08/logo-placeholder.jpg"
             <Card key={card.jobPostId} title={card.jobTitle} description={card.jobDescription} tag1={card.tags[0]}
                 tag2={card.tags[1]} tag3={card.tags[2]} CompanyName={card.companyName} location={card.jobLocation}
-                src="http://uniqueoffice.systems/wp-content/uploads/2019/08/logo-placeholder.jpg">
+                src="http://uniqueoffice.systems/wp-content/uploads/2019/08/logo-placeholder.jpg" jobReffererMailId={card.jobReferrerEmailId}
+                jobReffererUsername={card.jobReferrerUserName}>
                
              </Card>
             
-        ))}
+        ))} 
     </div>
     </div>
     </>

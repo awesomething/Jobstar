@@ -1,13 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './Card.css'
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
+import emailjs from 'emailjs-com';
+import { init } from 'emailjs-com';
+init("user_CPZ731a5PRuxvn8B5zubV");
 
 
-function Card({ CompanyName, src,location, title, description,tag1,tag2,tag3 }) {
+function Card({ CompanyName, src,location, title, description,tag1,tag2,tag3,jobReffererMailId,jobReffererUsername}) {
+
+    const [jobTitle, setJobTitle] = useState("");
+    const [googleDriveLink, setGoogleDriveLink] = useState("");
+    function handleSubmit(e) {
+        e.preventDefault();
+        sendEmail();
+        alert("Your google drive resume is shared with the Refferer,You can submit");
+        console.log('You clicked submit.');
+    }
+    function sendEmail() {
+        emailjs.send("service_8vld8cl", "template_m9uw4al",{
+            ToName: jobReffererUsername,
+            ToEmail: jobReffererMailId,
+            jobTitle: jobTitle, 
+            googleDriveLink: googleDriveLink
+        });
+    }
+    const contentStyle = {
+        maxWidth: "500px",
+        width: "90%"
+    };
     return (
         <div className='card'>
            
@@ -28,22 +52,19 @@ function Card({ CompanyName, src,location, title, description,tag1,tag2,tag3 }) 
                 </div>
                 <Popup trigger={<button className="buttonStyle" style={{ fontSize: '16px',
                     fontFamily: "Montserrat", fontWeight: "bold", backgroundColor: "rgb(88, 127, 206)",color:"white", borderRadius: "2px", width: "190px",padding: "5px",justifyContent:"flex-end"}}>
-                    Refer me</button>}>
-                    <form>
+                    Get Reffered</button>} contentStyle={contentStyle}>
+                    <form onSubmit={handleSubmit}>
                         <label>
-                            JobTitle:<input type="text" />
+                            JobTitle:<input type="text" name="Jobtitle" onChange={e => setJobTitle(e.target.value)} value={jobTitle}required />
                         </label>
                         <label>
-                            Resume [Google drive URL] : <input type="text"/>
+                            Resume [Google drive URL] : <input type="text" onChange={e => setGoogleDriveLink(e.target.value)} value={googleDriveLink} required/>
                         </label>
-                        <input type="submit" value="Submit" />
+                       <button className="submitButton">Submit</button>
                     </form>
                 </Popup>
             </div>
-            
-            
-          
-        </div>
+         </div>
     )
 
 }
