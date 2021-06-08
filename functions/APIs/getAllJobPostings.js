@@ -17,7 +17,8 @@ exports.getAllJobPostings = (request, response) => {
                     jobReferrerUserName: doc.data().jobReferrerUserName,
                     jobReferrerEmailId: doc.data().jobReferrerEmailId,
                     jobLocation: doc.data().jobLocation,
-                    tags:doc.data().tags
+                    tags:doc.data().tags,
+                    imageSrc: doc.data().imageSrc
 				});
 			});
 			return response.json(jobPost);
@@ -47,7 +48,8 @@ exports.postOneJob = (request, response) => {
         jobReferrerEmailId: request.body.jobReferrerEmailId,
         createdAt: new Date().toISOString(),
         jobLocation : request.body.jobLocation,
-        tags: request.body.tags
+        tags: request.body.tags,
+        imageSrc : request.body.imageSrc
     }
 
     db
