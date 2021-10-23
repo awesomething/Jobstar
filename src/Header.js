@@ -32,8 +32,6 @@ function Header() {
                 </div></center>
             </div>
         </div>
-    
-        
 </div>
     )
 }
